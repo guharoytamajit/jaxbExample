@@ -1,0 +1,1 @@
+xjc -b bind.xjb abc.xsd -extension

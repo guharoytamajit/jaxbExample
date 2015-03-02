@@ -1,0 +1,21 @@
+<jxb:bindings version="2.0"  xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc"
+	jxb:extensionBindingPrefixes="xjc"
+	>
+
+
+		
+
+		<jxb:bindings schemaLocation="abc.xsd"
+			node="//xs:element[@name='heading']">
+
+					
+			<xjc:javaType name="java.lang.String"	adapter="com.NullStringAdapter" />	
+					   
+		</jxb:bindings>
+
+
+
+
+
+</jxb:bindings>
